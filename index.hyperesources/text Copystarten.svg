@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="181px" height="63px" viewBox="0 0 181 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>MOLEKÜLE/Buttons/Mobile/text Copystarten</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="161" height="43" rx="8"></rect>
+        <filter x="-9.3%" y="-34.9%" width="118.6%" height="169.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="4-Suchergebnisse" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MOLEKÜLE/Buttons/Mobile/text-Copy" transform="translate(10.000000, 10.000000)">
+            <g id="Rectangle-6-Copy-8">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group" transform="translate(34.000000, 13.000000)" fill="#000000" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal">
+                <text id="Call-to-action">
+                    <tspan x="23.813" y="13">Starten</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
