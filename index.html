@@ -17,6 +17,34 @@
 	<!-- copy these lines to your document head: -->
 
 	<meta name="viewport" content="user-scalable=yes, width=375" />
+	
+	
+	<script>
+/* Get the documentElement (<html>) to display the page in fullscreen */
+var elem = document.documentElement;
+
+/* View in fullscreen */
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+
+/* Close fullscreen */
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.webkitExitFullscreen) { /* Safari */
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) { /* IE11 */
+    document.msExitFullscreen();
+  }
+}
+</script>
 
 	<!-- end copy -->
   </head>
@@ -24,7 +52,7 @@
 	<!-- copy these lines to your document: -->
 
 	<div id="index_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:375px;height:667px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?10975"></script>
+		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?2493"></script>
 	</div>
 
 	<!-- end copy -->
